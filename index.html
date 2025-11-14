@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width", initial-scale=1.0">
-		<title>NovaLanding - Your first modern landing page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NovaLanding - Твой первый современный лендинг</title>
 		<meta
 			name="description"
-			content="Educational one-page landing page, designed according to modern rules ccs: flex,grid, adaptive, typography"
-			.
+			content="Учебный одностраничный лендинг, свёрстанный по современным правилам CSS: flex, grid, адаптив, типографика."
 		/>
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
-	<body></body>
+	<body>
+		<header class="header">
+			<div class="container header__inner">
+				<div class="logo">Nova<span>Landing</span></div>
+				<nav class="nav">
+					<a href="#" class="nav__link">Возможности</a>
+					<a href="#" class="nav__link">О проекте</a>
+					<a href="#" class="nav__link">Тарифы</a>
+					<a href="#" class="nav__link nav__link--primary">Начать</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!-- HERO -->
+			<section class="hero" , id="top">
+				<div class="container hero__inner">
+					<div class="hero__content">
+						<p class="hero__eyebrow">Учебный проект по CSS</p>
+						<h1 class="hero__title">
+							Сверстай свой первый <span>крутой лендинг</span>
+						</h1>
+						<p class="hero__subtitle">
+							Чистая семантическая разметка, современный CSS, адаптив,
+							аккуратная типографика и наглядная структура.
+						</p>
+						<div class="hero_actions">
+							<a href="#" class="btn btn--primary">Начать практику</a>
+							<a href="#" class="btn btn--ghost">Посмотреть структуру</a>
+						</div>
+						<ul class="hero__list">
+							<li>Flexbox + Grid</li>
+							<li>Адаптив под мобильные</li>
+							<li>Аккуратная блочная модель</li>
+						</ul>
+					</div>
+					<div class="hero__visual">
+						<div class="hero-card">
+							<div class="hero-card__badge">Live Preview</div>
+							<div class="hero-card__screen">
+								<div class="hero-card__bar">
+									<span></span><span></span><span></span>
+								</div>
+								<div class="hero-card__content">
+									<div class="hero-card__row">
+										<div class="hero-card__block"></div>
+										<div class="hero-card__block"></div>
+									</div>
+									<div class="hero-card__row hero-card__row--small">
+										<div class="hero-card__block"></div>
+										<div class="hero-card__block"></div>
+										<div class="hero-card__block"></div>
+									</div>
+								</div>
+							</div>
+							<p class="hero-card__caption">
+								Макет показывает базовую структуру лендинга: шапка, блок hero,
+								секции, карточки.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
