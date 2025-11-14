@@ -1,0 +1,20 @@
+# Системные и служебные
+.DS_Store
+Thumbs.db
+
+# Node.js (если появится npm)
+node_modules/
+dist/
+
+# Настройки редактора
+.vscode/
+.idea/
+*.code-workspace
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Бэкапы и сборки
+*.zip
+*.tar.gz
