@@ -439,3 +439,33 @@ body {
 	font-size: 14px;
 	color: var(--text-muted);
 }
+
+/* ========== About ========== */
+
+.about {
+	display: grid;
+	grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+	gap: 32px;
+	align-items: center;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 16px 0 0;
+	color: var(--text-muted);
+	font-size: 14px;
+}
+
+.list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+
+.list li::before {
+	content: '•';
+	color: #a5b4fc;
+	margin-top: 2px;
+}
